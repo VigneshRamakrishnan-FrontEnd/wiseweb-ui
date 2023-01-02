@@ -1,0 +1,29 @@
+.carousel .carousel-indicators button {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  position: relative;
+  top: 60px;
+}
+.carousel-indicators {
+  gap: 50px;
+}
+.carousel .carousel-indicators [data-bs-target].active {
+  background-color: #ea830e;
+}
+
+@media (max-width: 460px) {
+  .carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    position: relative;
+    top: 60px;
+  }
+  .carousel-indicators {
+    gap: 30px;
+  }
+  .carousel .carousel-indicators [data-bs-target].active {
+    background-color: #ea830e;
+  }
+}
